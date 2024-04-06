@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Rajdhani&display=swap');
+
+:root{
+  --color01: #FDFFFC;
+  --color02: #D6D8FF;
+  --color03: #ffecd6;
+  --color04: #ffecd6c0;
+  --color05: #faefe3; 
+  --color06: #FDFFFC; 
+  --color07: #ccb59b;
+  /* --color01: #fdf5f5;
+  --color02: #D6D8FF;
+  --color03: #FFFFF0;
+  --color04: #FFAB9E;
+  --color05: #fcf5f5;
+  --color07: #d87e70; */
+}
+
+body{
+  background: var(--color03);
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1rem;
+}
+.spacer01{
+  position: relative;
+  height: 1px;
+  width: 100%;
+  margin: 20px auto;
+}
+h1{
+  font-size: 2.5rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+.bann-content{
+  position: relative;
+  margin: 20px auto;
+  min-width: 400px;
+  width: 80vw;
+}
+.bann-content02{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+  min-width: 400px;
+  width: 80vw;
+}
+.bann-content03{
+  position: relative;
+  justify-content: space-around;
+  margin: 20px auto;
+  min-width: 400px;
+  width: 80vw;
+  background: var(--color05);
+}
+.bann-content04{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+  min-width: 400px;
+}
+.bann-content05{
+  position: relative;
+  /* display: flex; */
+  /* justify-content: space-around;
+  align-items: end; */
+  margin: 20px auto;
+  min-width: 400px;
+  width: 100%;
+  height: fit-content;
+}
+.bann-content06{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: first baseline;
+  margin: 20px auto;
+  min-width: 400px;
+  width: 80vw;
+}
+.bann-content07{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  margin: 20px auto;
+  min-width: 400px;
+  width: 80vw;
+}
+.bann-content08{
+  position: relative;
+  /* display: flex; */
+  /* justify-content: space-around;
+  align-items: end; */
+  margin: 20px auto;
+  padding: 40px 0;
+  min-width: 400px;
+  width: 100%;
+  height: fit-content;
+  background-color: var(--color03);
+}
+.border-me{
+  background-color: var(--color05);
+  margin: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border: solid 1px var(--color04);
+  border-radius: 5px;
+}
+.border-me02{
+  background-color: var(--color05);
+  margin: 20px;
+  border: solid 2px var(--color04);
+  /* border-radius: 10px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.border-me03{
+  /* margin: 20px; */
+  /* padding: 20px; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border: solid 1px var(--color04);
+  border-radius: 5px;
+}
+.separator01{
+  position: relative;
+  text-align: center;
+  margin: 10px auto;
+  width: 150px;
+  border-bottom: double 5px var(--color07);
+}
+.separator02{
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  border-bottom: double 5px var(--color07);
+}
+h1{
+  text-align: center;
+  font-family: pacifico;
+}
+h1, h2, .bann02 h3, .formules-para{
+  margin-bottom: 0;
+  /* font-weight: 600; */
+  font-family: 'Calibri';
+  /* text-shadow: 0px 1px 1px var(--color07); */
+}
+.standard-image{
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+/* .grid-me p{
+  margin: 20px;
+} */
+.grid-me{
+  position: relative;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "sec01 sec02 sec02"
+  "sep sep sep"
+  "sec04 sec03 sec03";
+}
+.sec01{
+  position: relative;
+  grid-area: sec01;
+  margin: 25px auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sec02{
+  grid-area: sec02;
+  margin: 25px auto;
+}
+.sec03{
+  grid-area: sec03;
+  margin: 25px auto;
+}
+.sec04{
+  grid-area: sec04;
+  margin: 25px auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sep{
+  grid-area: sep;
+  margin: 30px auto;
+}
+
+.mybutton{
+  display: block;
+  position: relative;
+  text-align: center;
+  min-width: 100px;
+  width: 80%;
+  max-width: 250px;
+  margin: auto;
+  padding: 10px 30px;
+  border: solid 1px var(--color04);
+  border-radius: 50px;
+  background: var(--color03);
+  color: var(--color07);
+  text-decoration: none;
+  transition: 0.5s;
+}
+.mybutton:hover{
+  color: var(--color03);
+  text-decoration: none;
+  background: var(--color07);
+  border: solid 1px var(--color03);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px 3px, rgba(0, 0, 0, 0.06) 0px 2px 4px 3px;
+}
+.mybutton:active{
+  transform: scale(0.8);
+}
+a{
+  color: var(--color03);
+}
+
+
+/* *****************  Menu  ********************** */
+.menu{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+.menu img{
+  position: relative;
+  height: 50px;
+  padding: 5px;
+}
+nav{
+  position: relative;
+  display: block;
+  top: 0;
+  width: 100%;
+  background-color: var(--color07);
+  z-index:1;
+}
+.menulist ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: var(--color07); */
+}
+.menulist li{
+  display: inline-block;
+}
+.menu li a, .dropdown-content li a, .dropbtn{
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+}
+.menu li a:hover, .dropdown-content a:hover{
+  color: black;
+  background: var(--color04);
+}
+.active{
+  color: black;
+  background: var(--color04);
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: var(--color07);
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px black; */
+  z-index: 1;
+}
+.dropdown-content li{
+  display: block;
+}
+.internmenu:hover .dropdown-content{display: block;}
+.internmenu:hover .dropbtn{
+  background-color: var(--color04);
+  color: black;
+}
+
+/* ***************************** Bannière principale ****************************************** */
+.image-cont{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../image/shalom02.jpg') center/cover;
+}
+.vide{
+  position: relative;
+  width:30%;
+}
+.slogan{
+  position: relative;
+  width: 69%;
+
+}
+.image-cont span{
+  font-size: 8rem;
+}
+.image-cont h1{
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 5rem;
+  font-family: 'Pacifico', sans-serif;
+  color: var(--color01);
+  text-shadow: 2px 2px 1px var(--color02);
+}
+
+/* ******************************* First text ************************************ */
+.bann-content h2{
+  text-align: center;
+}
+.bann-content .mytext01{
+  position: relative;
+  min-width: 375px;
+  width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* ************************************* Bannière 02 ******************************************  */
+.bann02{
+  position: relative;
+  margin: 40px auto;
+}
+.myservices{
+  position: relative;
+  display: grid;
+  grid-template-columns: 8% auto auto auto auto 8%;
+  grid-template-areas: "vide01 s4 s1 s2 s3 vide02";
+}
+.service-card{
+  position: relative;
+  margin: 15px auto;
+  width: 240px;
+}
+.vide01{
+  grid-area: vide01;
+}
+.vide02{
+  grid-area: vide02;
+}
+.service01{
+  grid-area: s1;
+}
+.service02{
+  grid-area: s2;
+}
+.service03{
+  grid-area: s3;
+}
+.service04{
+  grid-area: s4;
+}
+.service-img{
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  height: 185px;
+  /* border-radius: 10px 10px 0 0; */
+  overflow: hidden;
+}
+.service-text{
+  margin: auto;
+  height: auto;
+  padding: 10px 10px;
+}
+.activit-img{
+  position: relative;
+  height: 200px;
+  object-position: center;
+}
+.activit-img02{
+  position: relative;
+  height: 200px;
+  object-position: center;
+}
+.service-card h3{ 
+  text-align: center;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px var(--color07);
+}
+.service-card p{
+  text-align: center;
+}
+
+/* **************************** Bannière 03 *************************************  */
+.roll-image{
+  position: relative;
+  display: flex;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0),  rgba(0, 0, 0, 0)70%), url('../image/roll.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+  padding: 150px 40px 40px 0;
+}
+.qui{
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width:70%;
+}
+.qui-text{
+  position: relative;
+  /* right: 20px; */
+  margin: 0 0;
+  border: solid 2px var(--color04);
+  background: var(--color05);
+  /* background : rgba(255, 255, 255, 0.600);  */
+  backdrop-filter: blur(10px);
+
+}
+.qui-text ul{
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 5px;
+}
+.usercheck{
+  margin: 5px;
+  font-size: 1.5rem;
+  color: var(--color07);
+  text-shadow: 1px 1px 2px black;
+}
+
+/* ************************ Le mot du Dr ************************************** */
+.doctor-word{
+  position: relative;
+  margin: 40px 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 400px;
+  width: 90%;
+}
+.doctor-word h2, .standard-text h2{
+  text-align: left;
+}
+.doctor-word li{
+  list-style: none;
+}
+
+.prez{
+  position: relative;
+  height: 175px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 5px;
+  background: var(--color03);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border: solid 4px var(--color04);
+}
+.prez02{
+  position: relative;
+  height: 400px;
+  float: left;
+  margin: 30px;
+  padding: 0 0;
+  /* border-radius: 5px; */
+  /* background: var(--color03); */
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+  /* border: solid 4px var(--color04); */
+}
+.signature{
+  position: relative;
+  display: block;
+  font-size: 500;
+  font-style: italic;
+  text-align: right;
+}
+
+/* ***********************************  Nos activités ************************************** */
+.activites{
+  position: relative;
+  margin: auto;
+  width: 100%;
+
+}
+.det-act{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	overflow: auto;
+}
+.act-card{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 185px;
+  width: 10vw;
+  max-width: 400px;
+  height: 240px;
+}
+.act-card img{
+  position: relative;
+  padding: 20px;
+  width: 85%;
+  max-width: 300px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+.act-card h3{
+  text-align: center;
+}
+
+/* ************************** Internat/Externat ********************************* */
+.internat, .externat{
+  position: relative;
+  min-width: 300px;
+  width: 70%;
+  max-width: 700px;
+}
+.bann02 h2, .bann02 h3, .formules-para{
+  text-align: center;
+}
+
+/* ************************** Nous contacter ********************************* */
+/* .form-image{
+  margin: auto;
+.myimgcont{
+  position: relative;
+}
+} */
+textarea, input{
+  display: block;
+  margin: 5px auto;
+  padding: 3px;
+  min-width: 250px;
+  width: 100%;
+  max-width: 500px;
+  border: solid 1px var(--color04);
+  border-radius: 5px;
+}
+input{
+  height: 50px;
+}
+textarea{
+  resize: vertical;
+}
+
+/* ********************************* Footer *********************************** */
+.footer-section{
+  position: relative;
+  display: grid;
+  width: 100%;
+  min-height: 300px;
+  padding: 20px;
+  color: var(--color03);
+  background-color: var(--color07);
+  grid-template-columns: 50% 20% 30%;
+  grid-template-areas: "fi fm fc";
+}
+.footer-section h2, .footer-section h3{
+  color: var(--color04);
+}
+.footer-section a{
+  color: var(--color03);
+}
+.footer-section ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-info{
+  position: relative;
+  grid-area: fi;
+  margin: 10px;
+  padding: 10px;
+}
+.footer-menu{
+  position: relative;
+  grid-area: fm;
+  margin: 10px;
+  padding: 10px;
+}
+.footer-contact{
+  position: relative;
+  grid-area: fc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.myfb, .myli{
+  font-size: 2rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+.myfb:hover, .myli:hover{
+  color: var(--color07);
+  background-color: var(--color04);
+}
+
+.mobile-menulist{
+  display: none;
+}
+
+/* ******************************** Responsive ******************************* */
+@media screen and (max-width: 1100px) {
+  .activit-img02{
+    left: 50%;
+    transform: tranlateX(-50%);
+  }
+  .myservices{
+    display: grid;
+    grid-template-columns: 20% auto auto 20%;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "vide01 s4 s1 vide02"
+    "vide01 s2 s3 vide02";
+  }
+  .grid-me{
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "sec01"
+    "sec02"
+    "sec04" 
+    "sec03";
+  }
+  .standard-image{
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+  }
+  .sep{
+    display: none;
+  }
+  .bann-content, .bann-content02, .bann-content04, .bann-content05, .bann-content06, .bann-content07{
+    display: block;
+    height: fit-content;
+  }
+  .bann-content05 .mydoc, .mytext02{
+    margin: auto 20px;
+  }
+  .internat, .externat{
+    margin: 20px auto;
+  }
+  .footer-section{
+    position: relative;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 400px 400px;
+    grid-template-areas: "fi fm"
+    "fc fc";
+  }
+}
+
+.mobile-menulist{
+  display: none;
+}
+@media screen and (max-width: 700px) {
+.menu{
+  display: none;
+}
+.menumobile{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin: 10px;
+  padding: 19px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: var(--color07);
+  z-index: 3;
+}
+.mobile-menulist{
+  position: fixed;
+  display: none;
+  top : 30px;
+  left: 30px;
+  z-index: 2;
+  list-style: none;
+}
+.mobile-menulist ul{
+  position: relative;
+  display: block;
+  list-style: none;
+}
+.mobile-menulist ul li{
+  position: relative;
+  display: block;
+  background: var(--color07);
+}
+.mobile-menulist ul li a{
+  position: relative;
+  display: block;
+}
+
+.mobile-menulist li a{
+  display: block;
+  color: var(--color03);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+}
+.mobile-menulist li:hover, .menu li a:hover, .dropdown-content a:hover, .active{
+  background: var(--color04);
+  color: black;
+}
+
+
+
+
+
+
+
+  .image-cont h1{
+    margin: auto;
+    font-size: 3rem;
+  }
+  .myservices{
+    display: block;
+  }
+  .roll-image{
+    display: block;
+  }
+  .vide{
+    display: none;
+  }
+  .qui{
+    width: 95%;
+  }
+  .footer-section{
+    position: relative;
+    display: block;
+  }
+}
+/* @media screen and (max-width: 500px){
+} */

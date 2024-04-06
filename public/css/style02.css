@@ -1,0 +1,347 @@
+.intern01{
+  margin-top: 75px;
+}
+.xtrabanner{
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+.standard-text{
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    width: 65%;
+}
+
+/* Introduction */
+.intern01 h1{
+  font-family: 'Rajdhani', sans-serif;
+}
+.aboutus-container{
+  position: relative;
+  display: inline-block;
+  width: 34%;
+  vertical-align: top;
+  filter: drop-shadow(3px 4px 2px var(--color07));
+}
+.aboutus-img{
+  clip-path: polygon(0 0, 74% 0, 100% 100%, 25% 100%);
+  background: url(../image/beaute.jpg) center/cover;
+  background-size: cover;
+  height: 300px;
+  width: 25vw;
+  border: solid 2px var(--color04);
+}
+.aboutus-img img{
+  width: 100%;
+}
+
+/* ***************************************** 04 Sections ***************************************************/
+.approche{
+  margin-top: 20px;
+}
+.sec02 h3, .sec03 h3, .bann-content03 h3, .equipe h3{
+  text-decoration: underline;
+  margin: 0 0 20px 0;
+  font-weight: 200;
+}
+.pousseoir{
+  border-left: solid 6px var(--color07); 
+  border-radius: 10px 0 0 10px;
+  padding: 20px;
+  /* box-shadow: -8px 0px 6px -6px black; */
+  box-shadow: -8px 0px 7px -6px rgba(167, 167, 167, 0.548);
+}
+
+/* ****************************************** Nos cibles ************************************************** */
+.mytext03{
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  padding: 20px;
+  vertical-align: middle;
+  background: var(--color05);
+  border: solid 2px var(--color04);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.img-content02{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  transform: rotate(12deg);
+  z-index: -1;
+}
+.brefimg{
+  position: relative;
+  float: right;
+}
+
+.mytext02{
+  position: relative;
+  padding: 20px;
+  min-width: 375px;
+  width: 70%;
+  background: var(--color05);
+  border: solid 2px var(--color04);
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+
+  /* text-align: center; */
+}
+
+/* ********************************* Notre équipe ************************************** */
+.equipe{
+  position: relative;
+  width: 90%;
+  background: var(--color03);
+}
+.img-go{
+  position: relative;
+  display: inline-block;
+  margin: auto;
+}
+.goout{
+  position: relative;
+  background-color: var(--color03);
+  border: solid 4px var(--color05); 
+  width: 350px; 
+  height: auto;
+  left: -40%;
+  transform: translateX(20%);
+  box-shadow: -8px 0px 6px -6px rgba(167, 167, 167, 0.548);
+}
+.equipe02{
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  /* padding: 20px; */
+  min-width: 300px;
+  width: 60%;
+  vertical-align: middle;
+}
+.carde-intern{
+  margin: 30px;
+}
+.equipe03{
+  margin: 35px 0;
+}
+.assistante-img{
+  position: relative;
+  border: solid 4px var(--color04); 
+  width: 350px; 
+  height: auto;
+  float: left;
+}
+.nosban01{
+  position: relative;
+  height: 325px;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.644)), url(../image/banniere.jpeg);
+  background-position: top;
+  background-size: cover;
+}
+.nosban01 h1{
+  position: relative;
+  color: var(--color03);
+  font-family: 'Rajdhani';
+  font-size: 10vw;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ************************************* Tableau ************************************************** */
+.grid-caracteristiques{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background: var(--color05);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.caracteristiques, .details{
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: var(--color03);
+  background-color: var(--color07);
+  border: solid 1px var(--color04);
+}
+.grid-conditions,
+.grid-duree,
+.grid-restauration,
+.grid-services,
+.grid-activites {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  border: solid 1px var(--color04);
+  font-weight: bold;
+} 
+.conditions-details,
+.duree-details,
+.restauration-details,
+.services-details,
+.activites-details{
+  margin: 0;
+  padding: 10px;
+  border: solid 1px var(--color04);
+}
+
+/* Cadre images Visite guidée Shalom */
+.cadre-image{
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: 
+  "shimg01 shtext01"
+  "shtext02 shimg02"
+  "shimg03 shtext03"
+  ;
+}
+  .shalom-gridimage{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.vide03{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  grid-area: vide;
+}
+.cadre-image01{
+  grid-area: shimg01;
+}
+.cadre-texte01{
+  grid-area: shtext01;
+}
+.cadre-image02{
+  grid-area: shimg02;
+}
+.cadre-texte02{
+  grid-area: shtext02;
+}
+.cadre-texte03{
+  grid-area: shtext03;
+}
+.cadre-image03{
+  grid-area: shimg03;
+}
+.cadre-image01, .cadre-image02, .cadre-image03{
+  position: relative;
+  max-height: 400px;
+  overflow: hidden;
+}
+.cadre-texte01, .cadre-texte02, .cadre-texte03{
+  position: relative;
+  background: radial-gradient(rgba(0, 0, 0, 0), var(--color07) 450%);
+  max-height: 400px;
+  overflow: hidden;
+}
+.inside-text{
+  position: relative;
+  width: 80%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ************************** Nous contacter ********************************* */
+.form-image02{
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+.group-image{
+  width: 90%;
+}
+.group-image::before {
+  content:"test";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background: rgba(0, 0, 0, 0.541);
+}
+.form-type02{
+  width: 50%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+/* ********************************** Responsive ************************************** */
+
+@media screen and (max-width:1100px){
+  .mydoc, .assistante-img{
+    display: block;
+    float: none;
+    margin: auto;
+  }
+  .mytext03{
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+  }
+  .img-content02{
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    transform: rotate(0deg);
+  }
+  .brefimg{
+    width: 100%;
+    float: none;
+  }
+  .equipe02{
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .goout{
+    position: relative;
+    display: block;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+}
+@media screen and (max-width: 700px){
+  .standard-text{
+      width: 90%;
+  }
+  .aboutus-img{
+    width: 400px;
+  }
+  /* .standard-text{
+    width: 100%;
+  } */
+  .cadre-image{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: 
+    "shimg01"
+    "shtext01"
+    /* "vide" */
+    "shimg02"
+    "shtext02"
+    /* "vide" */
+    "shimg03"
+    "shtext03"
+    ;
+
+  }
+}
