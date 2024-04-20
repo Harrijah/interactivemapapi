@@ -81,6 +81,10 @@ $routes->get('getmissions', 'Missions::getmissions');
 $routes->put('/updatepriomission', 'Missions::updatepriomission');
 $routes->put('/updatestatusmission', 'Missions::updatestatusmission');
 
+// log
+$routes->post('/logme', 'Log::logme');
+// $routes->get('/logme', 'Log::logme');
+
 
 /*
  * --------------------------------------------------------------------

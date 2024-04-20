@@ -29,7 +29,7 @@ class Missions extends BaseController
     {
         $model = model(Missionmodel::class);
         $data = $model->getmissions();
-        return $this->response->setJSON($data);
+        return $this->response->setHeader('Access-Control-Allow-Origin', 'http://localhost:3000')->setJSON($data);
     }
 
 

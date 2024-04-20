@@ -60,7 +60,7 @@
     /* ----------------------------------------------------
                             DELETE COMMENTS
     --------------------------------------------------- */
-        public function deletecomment($id)
+        public function deletecommentaire($id)
         {
             $this->where('id', $id);
             return $this->delete();

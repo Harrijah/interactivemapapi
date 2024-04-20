@@ -66,10 +66,6 @@
 
         public function deletecomment($id)
     {
-        // header('Access-Control-Allow-Origin: ' . $_SERVER['HTTP_ORIGIN']);
-        // header('Access-Control-Allow-Methods: DELETE, OPTIONS');
-        // header('Access-Control-Allow-Headers: Content-Type');
-        // header('Access-Control-Allow-Credentials: true');
 
         if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
             header('Access-Control-Allow-Origin: ' . $_SERVER['HTTP_ORIGIN']);
@@ -77,7 +73,7 @@
         }
 
         $model = model(Commentmodel::class);
-        $success = $model->deletecomment($id);
+        $success = $model->deletecommentaire($id);
 
         if ($success) {
             return $this->response->setStatusCode(200)->setBody(['success' => true, 'message' => 'Tâche supprimée avec succès']);
